@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Nunito", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* font-family: "Lora", serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/coffee-on-grass.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container h1 {
+    color: #fff;
+    font-family: "Lora", serif;
+}
+
+.container form {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container input {
+    background: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+}
+
+.container input::placeholder {
+    font-style: oblique;
+    font-weight: normal;
+    opacity: 1;
+    color: #fff;
+}
+
+.container input:hover {
+    transform: scale(1.05);
+}
+
+
+.container input:focus {
+    outline: none;
+    transform: scale(1.05);
+}
+
+.container button {
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+.container button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: rgb(122, 121, 121);
+}
+
+.container p {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container a {
+    color: rgb(255, 255, 255);
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
+
+
