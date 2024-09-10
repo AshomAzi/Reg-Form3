@@ -113,4 +113,10 @@ body {
     text-decoration: underline;
 }
 
+@media(max-width: 450px){
+    .container input{
+        width: 300px;
+    }
+}
+
 
